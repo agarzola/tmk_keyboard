@@ -91,13 +91,13 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KEYMAP(  // layer 0 : default
         // left hand
         EQL, 1,   2,   3,   4,   5,   ESC,
-        TAB, Q,   W,   E,   R,   T,   FN2,
+        TAB, Q,   W,   E,   R,   T,   FN1,
         LGUI,A,   S,   D,   F,   G,
         LSFT,Z,   X,   C,   V,   B,   FN1,
-        LGUI,GRV, BSLS,LEFT,RGHT,
+        FN2, GRV, BSLS,LEFT,RGHT,
                                       LCTL,LALT,
                                            HOME,
-                                 BSPC,DEL, END,
+                                 BSPC, DEL, END,
         // right hand
              FN3, 6,   7,   8,   9,   0,   MINS,
              LBRC,Y,   U,   I,   O,   P,   RBRC,
@@ -141,9 +141,9 @@ static const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                            TRNS,
                                  TRNS,TRNS,TRNS,
         // right hand
-             FN4, TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,
-             TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,
-                  TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,
+             FN4, TRNS,WH_L,WH_D,WH_U,WH_R,TRNS,
+             TRNS,TRNS,BTN1,MS_U,BTN2,BTN3,TRNS,
+                  TRNS,MS_L,MS_D,MS_R,TRNS,TRNS,
              TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,
                        TRNS,TRNS,TRNS,TRNS,TRNS,
         TRNS,TRNS,
